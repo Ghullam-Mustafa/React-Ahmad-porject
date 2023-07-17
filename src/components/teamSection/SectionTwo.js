@@ -5,37 +5,37 @@ import img1 from '../../assets/Rectangle 237.png'
 import img2 from '../../assets/Ellipse 89.png'
 // 
 export default function SectionTwo() {
-  return (
+  return (<>
     <div className='container'>
       <div className="row">
         <div className="col-lg-12">
-          <div className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between m-3">
             <img src={img} alt="" />
             <a href="#">Show All</a>
           </div>
         </div>
-
-        {/* Cards */}
-
-        <div className="container">
-          <div className="row justify-content-center ">
-            <div className="  col-lg-3 col-sm-12 col-md-6 p-1 ">
-              <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
-            </div>
-            <div className="  col-lg-3 col-sm-12 col-md-6 p-1">
-              <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
-            </div>
-            <div className="  col-lg-3 col-sm-12 col-md-6 p-1">
-              <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
-            </div>
-            <div className="  col-lg-3 col-sm-12 col-md-6 p-1">
-              <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
-            </div>
-
-
-          </div>
-        </div>
       </div>
     </div>
+       
+
+  <div className="container">
+    <div className="row justify-content-center ">
+      <div className="  col-lg-3 col-sm-12 col-md-6 p-1 ">
+        <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
+      </div>
+      <div className="  col-lg-3 col-sm-12 col-md-6 p-1">
+        <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
+      </div>
+      <div className="  col-lg-3 col-sm-12 col-md-6 p-1">
+        <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
+      </div>
+      <div className="  col-lg-3 col-sm-12 col-md-6 p-1">
+        <Cards img1={img1} img2={img2} name="Muhammad Aslam" position="Painter" adress="Post code. 1145 ,Street 401, New York, USA" member="10" />
+      </div>
+
+
+    </div>
+  </div>
+      </>
   )
 }
